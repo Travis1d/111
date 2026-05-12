@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <title>兰慕女装 Lamooner · 到店分享</title>
+  <script>
+  const CONFIG = {
+    wechatId : "Lamoonfushi",
+    xhsUrl   : "https://xhslink.com/m/8nRbjvvDTDC",
+    photos   : [
+      "https://github.com/user-attachments/assets/50e3a8ef-5e4f-440b-a000-54ea368eaf3c",
+      "https://github.com/user-attachments/assets/e9c64970-9a1e-4120-8163-a539d9ffc814",
+      "https://github.com/user-attachments/assets/a0f2c6a0-803f-4e54-8a10-fa135d5f9752",
+      "https://github.com/user-attachments/assets/7a7b4885-578c-4c77-ae46-c0cc356d01b5",
+      "https://github.com/user-attachments/assets/2c824e76-4540-4119-bed0-371cea2f3991",
+      "https://github.com/user-attachments/assets/856ac358-42aa-438e-ab8e-1d4cd418b119",
+      "https://github.com/user-attachments/assets/012f75b1-5cae-4c36-8d32-7349797a30ad",
+      "https://github.com/user-attachments/assets/c2fa58ff-c99f-4494-9545-8e5e5751c80c",
+      "https://github.com/user-attachments/assets/9de1ef0a-13bb-49c5-93bf-a6240c25cb77",
+      "https://github.com/user-attachments/assets/9c1b0edb-53ca-4155-97dc-ea7f7d9e8f6c",
+      "https://github.com/user-attachments/assets/b9fccbc1-a85e-4072-839c-a528167b26d9",
+      "https://github.com/user-attachments/assets/add42e8d-43d4-4538-af10-534309692efd",
+      "https://github.com/user-attachments/assets/51f17405-ec5e-4b48-9064-833429c0c066",
+      "https://github.com/user-attachments/assets/5071a3b5-0767-4632-927e-8fbd48213d0a",
+      "https://github.com/user-attachments/assets/f7b08c77-aac6-4696-a7de-2bd5502dffd3",
+      "https://github.com/user-attachments/assets/1149e897-3d98-4888-84f8-b0e884a96ed1",
+      "https://github.com/user-attachments/assets/763cc3da-0e8c-4274-8b5a-8f069a837a41"
+    ],
+    copy: {
+      /* 开场：真实到店场景，不是"种草" */
+      hooks: [
+        "今天逛了一家挺有意思的女装店",
+        "萧山盛丰路发现一家宝藏实体店",
+        "第一次到兰慕，进去逛了一圈",
+        "朋友带我去了家女装店，分享一下",
+        "难得碰到一家陈列很舒服的店",
+        "下午去逛了兰慕，随手记录一下",
+        "今天的逛街战利品，在兰慕买的",
+        "第一次来这家店，说说我的感受",
+      ],
+      /* 真实体验描述，不强制正向，保留个人视角 */
+      experience: [
+        "店里陈列挺极简的，没有乱哄哄的感觉，可以慢慢看",
+        "衣服以韩系极简风为主，颜色偏低饱和，我个人很喜欢这种调调",
+        "试了几件，版型做得比较用心，对微胖身材比较友好",
+        "面料摸起来有分量感，不是那种很廉价的化纤",
+        "价格在200-500之间，对于这个品质来说我觉得还可以",
+        "导购没有一直跟着我，给了我空间自己看，挺舒服的",
+        "款式不多但每件都很耐看，走的是少而精的路线",
+        "试穿体验还不错，上身效果比挂架上好看",
+      ],
+      /* 分享结尾，引导到店而非强制成交 */
+      cta: [
+        "感兴趣的可以去小红书搜 @火垚服饰 看看，有实体店可以去试穿",
+        "在小红书 @火垚服饰 能看到更多款式，实体店可以亲自摸摸面料",
+        "想了解更多可以关注 @火垚服饰 ，适不适合自己试穿了才知道",
+        "路过萧山盛丰路可以进去逛逛，不买也没关系，@火垚服饰",
+        "风格比较小众，喜欢极简韩系的可以去 @火垚服饰 看看",
+        "有没有适合你的款，还是自己去试试最准，@火垚服饰",
+      ],
+      hashtags: [
+        "#兰慕女装","#Lamooner","#萧山女装",
+        "#实体店探店","#大码穿搭","#微胖穿搭",
+        "#韩系穿搭","#极简风穿搭","#穿搭分享",
+        "#到店体验","#女装分享","#大码女生",
+        "#显瘦穿搭","#高性价比穿搭","#品质女装",
+        "#好物分享","#穿搭记录","#微胖女生",
+      ],
+      emojis: ["📍","👀","🛍️","✨","💫","🌿","🪴","☁️","🤍","📷"],
+    },
+  };
+  </script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    :root{
+      --coral:#E8503A;--coral-l:#FDE8E4;--warm:#FFF8F6;
+      --text:#2D1F1A;--muted:#7A5A52;--border:rgba(232,80,58,.15);
+      --radius:18px;--shadow:0 8px 32px rgba(232,80,58,.11);
+    }
+    body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--warm);color:var(--text);min-height:100vh;overflow-x:hidden;}
+
+    /* Hero */
+    .hero{background:linear-gradient(145deg,#FF6B6B 0%,#E8503A 50%,#c9375e 100%);padding:44px 20px 76px;text-align:center;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.07);top:-70px;right:-50px;}
+    .hero::after{content:"";position:absolute;width:160px;height:160px;border-radius:50%;background:rgba(255,255,255,.05);bottom:-45px;left:-25px;}
+    .hero-badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);color:#fff;font-size:12px;letter-spacing:.06em;padding:5px 14px;border-radius:99px;margin-bottom:12px;}
+    .hero h1{font-size:24px;font-weight:700;color:#fff;line-height:1.3;margin-bottom:6px;}
+    .hero p{font-size:13px;color:rgba(255,255,255,.82);}
+
+    /* 醒目标语横幅 */
+    .coupon-banner{
+      margin: 0 15px;
+      margin-top: -28px;
+      position: relative;
+      z-index: 10;
+      background: linear-gradient(135deg, #FF9500, #FF6B00);
+      border-radius: 16px;
+      padding: 16px 20px;
+      box-shadow: 0 6px 24px rgba(255,149,0,.4);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    .coupon-icon{
+      font-size: 36px;
+      flex-shrink: 0;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,.2));
+    }
+    .coupon-text{}
+    .coupon-main{
+      font-size: 19px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.3;
+      text-shadow: 0 1px 4px rgba(0,0,0,.2);
+    }
+    .coupon-main b{font-size: 26px;}
+    .coupon-sub{
+      font-size: 12px;
+      color: rgba(255,255,255,.88);
+      margin-top: 3px;
+      line-height: 1.5;
+    }
+
+    /* Cards */
+    .main{max-width:480px;margin:0 auto;padding:0 15px 40px;}
+    .card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 18px;margin-bottom:14px;border:1px solid var(--border);animation:rise .45s ease both;}
+    .card:nth-child(2){animation-delay:.06s}.card:nth-child(3){animation-delay:.12s}.card:nth-child(4){animation-delay:.18s}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    .section-label{font-size:12px;font-weight:600;letter-spacing:.07em;color:var(--coral);margin-bottom:12px;display:flex;align-items:center;gap:6px;}
+    .section-label span{font-size:15px;}
+
+    /* 活动说明 */
+    .rules-box{background:#FFF8F0;border:1px solid #FFD580;border-radius:12px;padding:13px 15px;margin-bottom:0;}
+    .rules-title{font-size:13px;font-weight:700;color:#B85C00;margin-bottom:8px;display:flex;align-items:center;gap:5px;}
+    .rules-list{list-style:none;display:flex;flex-direction:column;gap:6px;}
+    .rules-list li{font-size:12px;color:#7A4F00;line-height:1.6;display:flex;gap:6px;}
+    .rules-list li::before{content:"·";font-weight:900;color:#FF9500;flex-shrink:0;}
+
+    /* 文案区 */
+    .copy-hook{font-size:17px;font-weight:700;color:var(--text);line-height:1.4;margin-bottom:10px;}
+    .copy-body{font-size:14px;color:#4A3630;line-height:1.85;white-space:pre-line;background:var(--coral-l);border-radius:12px;padding:14px 15px;margin-bottom:10px;min-height:120px;}
+    .copy-tags{font-size:13px;color:var(--coral);line-height:1.8;margin-bottom:14px;word-break:break-all;}
+    .copy-actions{display:flex;gap:10px;}
+    .gen-count{font-size:11px;color:var(--muted);text-align:right;margin-bottom:8px;}
+
+    /* 图片 */
+    .save-tip{display:flex;align-items:center;gap:8px;background:#FFF3E0;border:1px solid #FFD180;border-radius:10px;padding:10px 13px;margin-bottom:14px;}
+    .save-tip-icon{font-size:18px;flex-shrink:0;}
+    .save-tip-text{font-size:12px;color:#7A4F00;line-height:1.5;}
+    .save-tip-text b{color:#E8503A;}
+    .photo-list{display:flex;flex-direction:column;gap:12px;margin-bottom:14px;}
+    .photo-item{position:relative;width:100%;border-radius:14px;overflow:hidden;background:var(--coral-l);min-height:180px;}
+    .photo-item img{width:100%;display:block;border-radius:14px;-webkit-touch-callout:default;}
+    .photo-badge{position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,.52);color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:99px;pointer-events:none;}
+    .shuffle-row{display:flex;justify-content:center;}
+
+    /* 按钮 */
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:none;border-radius:99px;cursor:pointer;font-family:inherit;font-weight:600;transition:transform .14s,box-shadow .14s;text-decoration:none;white-space:nowrap;}
+    .btn:active{transform:scale(.96);}
+    .btn-primary{background:linear-gradient(135deg,#E8503A,#c9375e);color:#fff;font-size:14px;padding:12px 20px;box-shadow:0 4px 16px rgba(232,80,58,.32);flex:1;}
+    .btn-outline{background:transparent;color:var(--coral);font-size:14px;padding:12px 16px;border:1.5px solid var(--coral);}
+    .btn-sm{font-size:13px;padding:9px 18px;}
+    .btn-block{width:100%;font-size:15px;padding:15px;border-radius:var(--radius);}
+
+    /* 微信 */
+    .wechat-row{display:flex;align-items:center;gap:12px;background:var(--coral-l);border-radius:12px;padding:14px 15px;margin-bottom:13px;}
+    .wechat-icon{width:40px;height:40px;border-radius:10px;background:#07C160;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    .wechat-icon svg{width:24px;height:24px;fill:#fff;}
+    .wechat-label{font-size:11px;color:var(--muted);margin-bottom:2px;}
+    .wechat-id{font-size:16px;font-weight:700;color:var(--text);}
+
+    /* 小红书 */
+    .xhs-btn{background:linear-gradient(135deg,#FF2442,#e8503a);color:#fff;box-shadow:0 6px 20px rgba(255,36,66,.28);}
+    .xhs-logo{width:24px;height:24px;background:rgba(255,255,255,.22);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;color:#fff;flex-shrink:0;}
+
+    /* Toast */
+    .toast{position:fixed;bottom:34px;left:50%;transform:translateX(-50%) translateY(18px);background:rgba(25,10,5,.84);color:#fff;font-size:14px;padding:10px 22px;border-radius:99px;opacity:0;pointer-events:none;transition:opacity .28s,transform .28s;backdrop-filter:blur(8px);z-index:999;white-space:nowrap;}
+    .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+    .footer{text-align:center;font-size:12px;color:var(--muted);padding:8px 0 28px;}
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-badge">✨ 兰慕女装 Lamooner · 线下体验店</div>
+  <h1>萧山女生夏日通勤分享礼 🌿</h1>
+  <p>最高可获价值 <b style="font-size:20px;letter-spacing:.02em;">¥148</b> 礼金及好礼</p>
+</section>
+
+<main class="main">
+
+  <!-- 醒目横幅 -->
+  <div class="coupon-banner">
+    <div class="coupon-icon">🎟️</div>
+    <div class="coupon-text">
+      <div class="coupon-main">萧山女生夏日通勤分享礼</div>
+      <div class="coupon-sub">试穿分享即得礼金 · 保留笔记追加奖励 · 推荐新客还有额外礼金</div>
+    </div>
+  </div>
+
+  <!-- 活动说明 -->
+  <div class="card">
+    <div class="section-label"><span>📋</span> 活动规则</div>
+    <div class="rules-box">
+      <div class="rules-title">🎁 第一步 · 即时穿搭礼金</div>
+      <ul class="rules-list">
+        <li>到店试穿后，发布一篇真实小红书试穿笔记</li>
+        <li>到店登记笔记截图及链接</li>
+        <li>即可领取 <b style="color:#B85C00;">¥10 即时穿搭礼金</b>，满199元可用</li>
+      </ul>
+      <div class="rules-title" style="margin-top:14px;">🎁 第二步 · 复购礼金</div>
+      <ul class="rules-list">
+        <li>笔记公开保留满 72 小时后，可追加领取</li>
+        <li><b style="color:#B85C00;">¥20 复购礼金</b>，下次到店消费满299元可用</li>
+        <li>使用复购礼金且消费满299元，额外获赠</li>
+        <li><b style="color:#B85C00;">价值¥38 夏日通勤遮阳伞 1 把</b>，数量有限，送完即止</li>
+      </ul>
+      <div class="rules-title" style="margin-top:14px;">🎁 第三步 · 推荐礼金</div>
+      <ul class="rules-list">
+        <li>笔记发布30天内，有新顾客凭该笔记到店</li>
+        <li>新客成交满299元 → 发布者获 <b style="color:#B85C00;">¥50 推荐礼金</b></li>
+        <li>新客成交满499元 → 发布者获 <b style="color:#B85C00;">¥80 推荐礼金</b></li>
+      </ul>
+      <div class="rules-title" style="margin-top:14px;">📌 说明</div>
+      <ul class="rules-list">
+        <li>本活动最终解释权归兰慕女装所有</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 文案辅助 -->
+  <div class="card">
+    <div class="section-label"><span>✍️</span> 写不知道怎么开头？试试这个</div>
+    <div class="gen-count" id="gen-count">第 1 次生成</div>
+    <div class="copy-hook" id="copy-hook"></div>
+    <div class="copy-body" id="copy-body"></div>
+    <div class="copy-tags" id="copy-tags"></div>
+    <div class="copy-actions">
+      <button class="btn btn-primary" onclick="copyCopy()">📋 复制文案参考</button>
+      <button class="btn btn-outline" onclick="generateCopy()">🔀 换一个思路</button>
+    </div>
+  </div>
+
+  <!-- 图片 -->
+  <div class="card">
+    <div class="section-label"><span>📸</span> 没拍到好看的？用这几张</div>
+    <div class="save-tip">
+      <div class="save-tip-icon">👆</div>
+      <div class="save-tip-text"><b>长按图片 → 存储图片</b>，三张都保存，发笔记时一起上传</div>
+    </div>
+    <div class="photo-list" id="photo-list"></div>
+    <div class="shuffle-row">
+      <button class="btn btn-outline btn-sm" onclick="shufflePhotos()">🔀 换一组图片</button>
+    </div>
+  </div>
+
+  <!-- 微信 -->
+  <div class="card">
+    <div class="section-label"><span>💬</span> 联系我们</div>
+    <div class="wechat-row">
+      <div class="wechat-icon">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.5 10C10.7 10 6 14 6 19c0 3 1.6 5.6 4.1 7.3l-.8 2.7 3-1.7c1.1.3 2.2.5 3.2.5.3 0 .7 0 1-.03C16.2 27.2 16 26.5 16 25.8c0-4.5 4-8.2 9-8.2.3 0 .7 0 1 .04C25.2 13.5 21.2 10 16.5 10zM13 15.5a1 1 0 110 2 1 1 0 010-2zm7 0a1 1 0 110 2 1 1 0 010-2z"/>
+          <path d="M25 18c-4.4 0-8 3-8 6.8 0 3.7 3.6 6.7 8 6.7 1 0 1.9-.15 2.8-.4l2.5 1.4-.7-2.3c2-1.4 3.4-3.6 3.4-6.1-.1-3.7-3.6-6.7-8-6.7zm-2.5 4.5a1 1 0 110 2 1 1 0 010-2zm5 0a1 1 0 110 2 1 1 0 010-2z"/>
+        </svg>
+      </div>
+      <div>
+        <div class="wechat-label">官方微信号</div>
+        <div class="wechat-id">Lamoonfushi</div>
+      </div>
+    </div>
+    <button class="btn btn-outline btn-block" onclick="copyWechat()">复制微信号 📱</button>
+  </div>
+
+  <!-- 小红书 -->
+  <div class="card">
+    <div class="section-label"><span>📖</span> 访问小红书店铺</div>
+    <a href="https://xhslink.com/m/8nRbjvvDTDC" target="_blank" rel="noopener"
+       class="btn btn-block xhs-btn" onclick="return openXhs(event)">
+      <div class="xhs-logo">书</div>
+      <span>前往兰慕小红书主页</span>
+      <span style="margin-left:auto;opacity:.7;">→</span>
+    </a>
+  </div>
+
+  <div class="footer">© 兰慕女装 Lamooner · 期待你的真实分享 ❤️</div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+function pick(arr,n){const a=[...arr].sort(()=>Math.random()-.5);return n===1?a[0]:a.slice(0,n);}
+
+let genCount=0;
+function buildCopy(){
+  const C=CONFIG.copy;
+  const hook=pick(C.hooks,1);
+  const exp1=pick(C.experience,1);
+  const exp2=pick(C.experience.filter(e=>e!==exp1),1);
+  const cta=pick(C.cta,1);
+  const e1=pick(C.emojis,1);
+  const tags=pick(C.hashtags,4+Math.floor(Math.random()*3)).join(" ");
+  const structs=[
+    `${hook} ${e1}\n\n${exp1}。\n${exp2}。\n\n${cta}`,
+    `${hook}，说说我的感受 ${e1}\n\n${exp1}。\n${exp2}。\n\n${cta}`,
+    `${hook}。\n\n${exp2}，${exp1}。\n\n${cta} ${e1}`,
+  ];
+  return{hook:`${hook}`,body:pick(structs,1),tags};
+}
+
+function generateCopy(){
+  genCount++;
+  document.getElementById("gen-count").textContent=`第 ${genCount} 次生成`;
+  const hEl=document.getElementById("copy-hook"),bEl=document.getElementById("copy-body"),tEl=document.getElementById("copy-tags");
+  hEl.style.opacity=bEl.style.opacity=tEl.style.opacity="0";
+  setTimeout(()=>{
+    const{hook,body,tags}=buildCopy();
+    hEl.textContent=hook;bEl.textContent=body;tEl.textContent=tags;
+    hEl.style.transition=bEl.style.transition=tEl.style.transition="opacity .28s";
+    hEl.style.opacity=bEl.style.opacity=tEl.style.opacity="1";
+  },140);
+}
+
+function copyCopy(){
+  const h=document.getElementById("copy-hook").textContent;
+  const b=document.getElementById("copy-body").textContent;
+  const t=document.getElementById("copy-tags").textContent;
+  writeClipboard(`${b}\n\n${t}`,"文案已复制！粘贴到小红书发布吧 ✨");
+}
+
+let usedIndices=[];
+function shufflePhotos(){
+  const total=CONFIG.photos.length;
+  let pool=[...Array(total).keys()].filter(i=>!usedIndices.includes(i));
+  if(pool.length<3){pool=[...Array(total).keys()];usedIndices=[];}
+  const chosen=pick(pool,3);
+  usedIndices=Array.isArray(chosen)?chosen:[chosen];
+  const list=document.getElementById("photo-list");
+  list.innerHTML="";
+  usedIndices.forEach((imgIdx,pos)=>{
+    const item=document.createElement("div");
+    item.className="photo-item";
+    const img=document.createElement("img");
+    img.referrerPolicy="no-referrer";
+    img.src=CONFIG.photos[imgIdx];
+    img.alt=`兰慕女装配图 ${pos+1}`;
+    const badge=document.createElement("div");
+    badge.className="photo-badge";
+    badge.textContent=`图 ${pos+1} · 长按保存`;
+    item.appendChild(img);item.appendChild(badge);list.appendChild(item);
+    img.onload=()=>{item.style.minHeight="";}
+  });
+}
+
+function copyWechat(){writeClipboard(CONFIG.wechatId,"微信号已复制！打开微信搜索添加 💬");}
+
+function openXhs(e){
+  e.preventDefault();showToast("正在跳转到兰慕小红书～ 📖");
+  setTimeout(()=>{window.open(CONFIG.xhsUrl,"_blank","noopener");},380);return false;
+}
+
+function writeClipboard(text,msg){
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(()=>showToast("✅ "+msg)).catch(()=>fallback(text,msg));
+  }else{fallback(text,msg);}
+}
+function fallback(text,msg){
+  const ta=document.createElement("textarea");ta.value=text;
+  ta.style.cssText="position:fixed;opacity:0;pointer-events:none;";
+  document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");showToast("✅ "+msg);}
+  catch{showToast("⚠️ 请手动长按复制");}
+  document.body.removeChild(ta);
+}
+
+let toastTimer;
+function showToast(msg){
+  const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove("show"),2800);
+}
+
+(function(){shufflePhotos();generateCopy();})();
+</script>
+</body>
+</html>
